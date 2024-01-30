@@ -11,12 +11,12 @@ $email = addslashes($_POST['email']);
 $mensagem = addslashes($_POST['message']);
 
 
-$to = "contato@programadorbr.com";
-$subject = "Contato - Programador Br";
+$to = "eduardocargarcia@gmail.com";
+$subject = "Contato -";
 $body = "Nome: ".$nome. "\r\n".
         "Email:".$email. "\r\n".
         "Mensagem: ".$mensagem;
-$header = "From:eduardo@programadorbr.com"."\r\n".
+$header = "From:eduardocargarcia@gmail.com"."\r\n".
         "Reply-To:".$email."\r\n".
         "X=Mailer:PHP/".phpversion();
 
